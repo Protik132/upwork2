@@ -1,0 +1,92 @@
+@media only screen and (max-width:576px){
+    .bg {
+   
+        background-image: url("https://www.upwork.com/static/assets/Brontes/8f0b5e9/img/xl.01f18fd.jpg");
+        width:100%;
+        height:450px;
+        background-position:50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .agencies{
+          display:none;
+      } 
+      .shadow .row .col-3 img{
+        height:100%;
+        width:100px;
+      }
+     .shadow{
+         width:80%;
+         display: block;
+         
+     }
+     
+      .brand-sticker{
+          display: none;
+      }
+      .hire{
+          text-align: center; 
+          }
+        .text-center{
+            width: 60%;
+            margin: auto;
+            margin-top:20px;   
+        }
+        .rating{
+            display: none;
+        }
+        .top_skill_one{
+            display: none;
+        }
+         
+}
+
+@media only screen and (max-width:992px){
+    .brand-sticker{
+        display:none;
+    }
+    .banner{
+        display: none;
+    }
+    .agencies{
+        display:none;
+    } 
+   
+}
+@media only screen and (max-width:768px){
+   
+    .rating{
+        display: none;
+    }
+    .shadow .row .col-3 img{
+        height:100%;
+        width:100px;
+      }
+     .shadow{
+         width:80%;
+         
+     }
+     .agencies{
+        display: none;
+    } 
+
+
+}
+@media only screen and (max-width:1199px){
+    .mbbrandsticker{
+        display:none;
+    }
+    .banner{
+        display: none;
+    }
+   
+}
+@media only screen and (min-width:1200px) {
+   
+    .mbbrandsticker{
+        display:none;
+    }
+    .shadow{
+        display: none;
+    }
+}

@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+body{
+    text-decoration: none;
+    list-style: none;
+    width:100%;
+    background-color: #f9f9f9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.menu_bar{
+    position: relative;
+    
+}
+.nav-menu{
+    position: fixed;
+}
+
+
+.bg {
+   
+    background-image: url("https://www.upwork.com/static/assets/Brontes/8f0b5e9/img/xl.01f18fd.jpg");
+    width:100%;
+    background-position:50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ 
+
+.extra{
+  color: #f9f9f9;
+  margin-top:400px;
+  margin-left:200px;
+}
+.nav-toggler:hover{
+    display:block;
+}
+.nav-input{
+    width: 50%;
+    height: 35px; 
+    margin-top: 20px;
+    position: absolute;
+    top: 0px;
+    left: 140px;
+    border: var;
+    border-radius: var;
+    background-color: var;
+}
+.nav-input::placeholder{
+
+    font-size: 15px;
+}
+.nav-menu{
+    position: absolute;
+    top:20px;
+    left:0px;
+}
+.nav-menu ul li {
+    display: inline-block;
+    margin: 10px;  
+    color:#37a000;
+}
+.nav-menu ul li button{
+    background-color:#37a000;
+    width: 100px;
+}
+.nav-menu ul li button a{
+    color: white;
+}
+
+.all-menu{
+    background-color: lightgray;
+    width: 110%;
+    margin-top: 20px;
+}
+.all-menu a{
+    margin-left: 50px;
+    color: black;
+}
+.description{
+    background-color:whitesmoke;
+    padding: 30px;
+    border: 1px solid #ddd;
+    width:75%;
+    list-style:none;
+  
+
+}
+
+.description .green-desh{
+    height:8px;
+    width: 50px;
+    background-color: #5bbc2e;
+}
+.green-dash{
+    height:5px;
+    width: 40px;
+    background-color: #5bbc2e;
+}
+.m-md-0{
+    margin:0 !important;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.h3.display-1{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: var(--heading-weight-visitor);
+}
+.col-md-4{
+    border-right: 3px solid #e0e0e0;
+}
+.right{
+    border-right: none;
+}
+
+.use-cases-content{
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    font-family: var(--font-family-base);
+    font-size: 13px;
+    line-height: 1.42857;
+    color: var(--text-1);
+    padding: 30px 0px;
+    margin-left: 0px;
+}
+.item-title{
+    font-size: 15px;
+    font-weight: bold;
+}
+.hire{
+    font-weight: bold !important;
+    margin-left:50px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.all-item{
+    padding: 10px;
+}
+.text-center img{
+    height:100px;
+    width:100px;
+}
+.text-center h5{
+    font-weight:bold;
+}
+.last-right{
+    width:400px;
+    height:800px;
+}
+.content{
+    display: none;
+}
+.top_skill a{
+    color: black;
+}
+.top_skill a:hover{
+    color:limegreen;
+    
+}
+.top_list a{
+    color: white;
+   
+}
+.active a{
+    color:white;
+}
+
